@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>United Of States </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        .wisata {
+            display: flex;
+            justify-content: center;
+            padding: 20px 20px 20px;
+        }
+
+        .card-body {
+            padding: 20px 20px 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="logo usa.png" alt="Bootstrap" width="34" height="30">
+            </a>
+            <a class="navbar-brand" style="color: black;" href="#">United States Of America</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="Index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Page">Popular destinations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="Gallery.html" class="nav-link">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="Contact.html" class="nav-link">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="About Us.html" class="nav-link">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            More Info
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#basic">1. Basic Information</a></li>
+                            <li><a class="dropdown-item" href="#cultur">2. Culture</a></li>
+                            <li><a class="dropdown-item" href="#turis">3. Tourist</a></li>
+                            <li><a class="dropdown-item" href="#trans">4. Transportation</a></li>
+                            <li><a class="dropdown-item" href="#educa">5. Education</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#educa">Interesting Facts</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <nav aria-label="breadcrumb" style="margin: 15px 30px 30px;">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item">
+                <a href="Index.html">Home</a>
+            </li>
+            <li class="breadcrumb-item active" aria-current="page">Popular destinations</li>
+        </ol>
+    </nav>
+
+    <div class="wisata">
+        <div class="card" style="width: 18rem;">
+            <div class="isi">
+                <img src="Golden_Gate.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Golden Gate Bridge</h5>
+                    <p class="card-text">stretches 4,200 feet long and cements its claim as the longest suspension
+                        bridge in the world</p>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                        data-bs-target="#staticBackdrop1">See More</button>
+                    <div class="modal fade" id="staticBackdrop1" data-bs-backdrop="static" data-bs-keyboard="false"
+                        tabindex="-1" aria-labelledby="staticBackupdropLabel1" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="staticBackupdropLabel1">Golden Gate Bridge</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="gambar-active">
+                                        <img src="Golden_Gate.jpg" style="border-radius: 3%;" width="100%%">
+                                    </div>
+                                    <div class="text"><b>The Golden Gate Bridge</b>, an iconic symbol of San Francisco,
+                                        is a
+                                        stunning suspension bridge that spans the Golden Gate Strait, connecting the
+                                        city to Marin County. Completed in 1937, it was once the longest and tallest
+                                        suspension bridge in the world. Its distinctive International Orange color and
+                                        Art Deco design make it one of the most photographed landmarks globally. The
+                                        bridge stretches 1.7 miles (2.7 kilometers) and offers breathtaking views of the
+                                        Pacific Ocean and San Francisco Bay, attracting millions of visitors each year.
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary">Next</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="NYC_Montage_12_by_Jleon.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">New York</h5>
+                <p class="card-text">A leading global city, New York exerts a major influence on world commerce,
+                    finance, media, culture, arts, fashion, research and entertainment. Home to the headquarters of the
+                    United Nations, the city is also an important center of international relations.</p>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                    data-bs-target="#staticBackdrop2">See More</button>
+                <div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false"
+                    tabindex="-1" aria-labelledby="staticBackupdropLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="staticBackupdropLabel2">New York City</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="gambar-active">
+                                    <img src="NYC_Montage_12_by_Jleon.jpg" style="border-radius: 3%;" width="100%%">
+                                </div>
+                                <strong>The Statue of Liberty,</strong> an enduring symbol of freedom and democracy,
+                                stands proudly on
+                                Liberty Island in New York Harbor. Gifted by France in 1886, this colossal neoclassical
+                                sculpture was designed by Frédéric Auguste Bartholdi and engineered by Gustave Eiffel.
+                                The statue, with its torch held high and tablet inscribed with the date of the American
+                                Declaration of Independence, welcomes millions of visitors annually. Towering at 305
+                                feet (93 meters) from the ground to the tip of the torch, it offers stunning views of
+                                the New York City skyline and serves as a reminder of the enduring values of liberty and
+                                justice.
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-primary">Back</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="Canyon_River_Tree_(165872763).jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Grand Canyon Park</h5>
+                <p class="card-text">The Grand Canyon offers one of the most vivid examples of the world's geological
+                    phenomenon known as the Great Unconformity, namely layers of 250 million year old rock lying back to
+                    back with 1.2 billion year old rock. What happened during the hundreds of millions of years between
+                    the two remains largely a mystery.</p>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                    data-bs-target="#staticBackdrop">See More</button>
+                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                    tabindex="-1" aria-labelledby="staticBackupdropLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="staticBackupdropLabel">Grand Canyon Park</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="gambar-active">
+                                    <img src="Canyon_River_Tree_(165872763).jpeg" style="border-radius: 3%;"
+                                        width="100%%">
+                                </div>
+                                <b>The Grand Canyon</b>, one of the most awe-inspiring natural wonders of the world, is
+                                a vast
+                                and majestic chasm carved by the Colorado River in northern Arizona. Stretching
+                                approximately 277 miles (446 kilometers) in length, up to 18 miles (29 kilometers) in
+                                width, and over a mile (1.6 kilometers) deep, the canyon reveals millions of years of
+                                Earth's geological history through its layered rock formations. Its breathtaking vistas,
+                                with vibrant colors and dramatic cliffs, draw nearly six million visitors each year,
+                                making it a must-see destination for nature lovers and adventurers alike.
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-primary">Understand</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="text-center p-3 bg-dark text-white">
+            © 2024 Adhyasta Muhammad Pradipa. All Rights Reserved.
+        </div>
+    </footer>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
